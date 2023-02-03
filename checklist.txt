@@ -1,0 +1,14 @@
+Compiler Flags:
+-O 0,1,2,3,Fast
+
+
+Loop :
+
+
+
+Memery Transfer :
+ 
+
+
+
+Verctorizaion : 

@@ -6,6 +6,7 @@ CC=gcc
 CFLAGS= -std=c99 -Wall 
 LIBS = -lm
 OPTFLAGS = -O3
+OPENMPFLAGS = -fopenmp
 
 FINAL_STATE_FILE=./final_state.dat
 AV_VELS_FILE=./av_vels.dat
@@ -18,7 +19,7 @@ flags:
 	$(CC) $(CFLAGS) -pg $(OPTFLAGS) $(EXE).c $(LIBS) -o $(EXE)
 
 prof:
-	$(CC) $(CFLAGS) -pg $(EXE).c $(LIBS) -o $(EXE)
+	$(CC) $(CFLAGS) $(OPTFLAGS) -pg -g -o $(EXE) $(LIBS) $(EXE).c
 
 $(EXE): $(EXE).c
 	$(CC) $(CFLAGS) $^ $(LIBS) -o $@

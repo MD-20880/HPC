@@ -9,12 +9,13 @@ Compiler Flags:
 
 Loop :
 ===
-When Cell Size < L1 Cache, test 2D array[N][N] && 1D array[N*N]:
+When test 2D array[N][N] && 1D array[N*N] UNDER DIFFERENT CIRCUMSTANCES:
     LOAD CELL ENTIRE(576 KB) -> LOAD OBSTACLES(64 KB) -> LOAD CELL ENTIRE
-    
+
     LOAD ROW
     LOAD ADJACENT ROWS
     LOAD DISTANT ROWS
+
 
     
     

@@ -1,0 +1,79 @@
+15 [140071689501824] INFO perfrun.launcher <> - Launcher main begin
+16 [140071689501824] INFO perfrun.launcher <> - MessageCatalogInit finished
+16 [140071689501824] INFO perfrun.launcher <> - Launcher instance created
+17 [140071689501824] INFO perfrun.launcher <> - argc = 7; cmdline = /opt/intel/oneapi/vtune/2023.0.0/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 5 --option-file /usr/local/data/r001hs/config/runss.options 
+71 [140071689501824] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+73 [140071689501824] INFO perfrun.launcher <> - create file finder object
+74 [140071689501824] INFO perfrun.launcher <> - create a result directory: pattern = /usr/local/data/r001hs pid = 4294967295
+84 [140071689501824] INFO perfrun.sdk <> - checked that the directory /usr/local/data/r001hs is a local directory
+85 [140071689501824] INFO perfrun.sdk <> - the directory /usr/local/data/r001hs is located on a share or its FS ID is unknown 1702057286
+86 [140071689501824] INFO perfrun.sdk <> - checked that the directory /tmp/amplxe-tmp-root is a local directory
+86 [140071689501824] INFO perfrun.sdk <> - the directory /tmp/amplxe-tmp-root is located on a share or its FS ID is unknown 2035054128
+92 [140071689501824] INFO perfrun.launcher <> - create data directory = /usr/local/data/r001hs/data.0
+95 [140071689501824] INFO perfrun.launcher <> - Creating the master collection flag
+99 [140071689501824] INFO perfrun.launcher <> - Done creating the master collection flag
+100 [140071537731136] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+101 [140071537731136] INFO perfrun.sdk <> - Allocating TMU :/usr/local/data/r001hs/data.0/systemcollector-154-6c0dbc9d2ea3.sc
+104 [140071537731136] INFO perfrun.system <> - Tpss based collection
+104 [140071537731136] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+105 [140071537731136] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+106 [140071537731136] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+106 [140071537731136] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+107 [140071537731136] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+107 [140071537731136] INFO perfrun.mrte <> - system-wide mode is 0
+108 [140071537731136] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+119 [140071537731136] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/usr/local/data/r001hs/data.0
+120 [140071537731136] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=6c0dbc9d2ea3
+121 [140071537731136] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/vtune/2023.0.0/lib32/runtime:/opt/intel/oneapi/vtune/2023.0.0/lib64/runtime
+122 [140071537731136] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/opt/intel/oneapi/vtune/2023.0.0/lib32/runtime:/opt/intel/oneapi/vtune/2023.0.0/lib64/runtime
+122 [140071537731136] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+130 [140071537731136] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+131 [140071537731136] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=/opt/intel/oneapi/vtune/2023.0.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+131 [140071537731136] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+132 [140071537731136] INFO perfrun.mrte <> - Data directory: /usr/local/data/r001hs/data.0
+133 [140071537731136] INFO perfrun.mrte <> - Mrte plugin is initialized
+134 [140071537731136] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+135 [140071537731136] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+136 [140071537731136] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+137 [140071537731136] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+137 [140071537731136] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+138 [140071537731136] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+139 [140071537731136] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+139 [140071537731136] INFO perfrun.tpss <> - initialize tpss controller
+140 [140071537731136] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+140 [140071537731136] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+141 [140071537731136] INFO perfrun.tpss <> - default obj-size-min=1024
+141 [140071537731136] INFO perfrun.tpss <> - default hash-table-size=0
+142 [140071537731136] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+143 [140071537731136] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+143 [140071537731136] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [140071537731136] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+144 [140071537731136] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+145 [140071537731136] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+145 [140071537731136] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+146 [140071537731136] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+146 [140071537731136] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+147 [140071689501824] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /opt/intel/oneapi/vtune/2023.0.0/lib32/runtime:/opt/intel/oneapi/vtune/2023.0.0/lib64/runtime
+148 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /opt/intel/oneapi/vtune/2023.0.0/lib32/runtime/libittnotify_collector.so
+149 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /opt/intel/oneapi/vtune/2023.0.0/lib64/runtime/libittnotify_collector.so
+150 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+151 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /opt/intel/oneapi/vtune/2023.0.0/lib32/runtime/libittnotify_collector.so
+152 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /opt/intel/oneapi/vtune/2023.0.0/lib64/runtime/libittnotify_collector.so
+153 [140071689501824] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /opt/intel/oneapi/vtune/2023.0.0/lib32/runtime/libittnotify_collector.so:/opt/intel/oneapi/vtune/2023.0.0/lib64/runtime/libittnotify_collector.so
+154 [140071689501824] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+154 [140071689501824] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+155 [140071689501824] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+156 [140071689501824] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+157 [140071689501824] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+158 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /usr/local/data/r001hs/data.0
+158 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = 6c0dbc9d2ea3
+159 [140071689501824] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/vtune/2023.0.0/lib32/runtime:/opt/intel/oneapi/vtune/2023.0.0/lib64/runtime
+161 [140071689501824] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /opt/intel/oneapi/vtune/2023.0.0/lib32/runtime:/opt/intel/oneapi/vtune/2023.0.0/lib64/runtime
+161 [140071689501824] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+162 [140071689501824] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+163 [140071689501824] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = /opt/intel/oneapi/vtune/2023.0.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+164 [140071689501824] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+164 [140071689501824] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+168 [140071689501824] ERROR perfrun.launcher <> - Messenger::say: Binary `d2q9-bgk' cannot be executed. Suggestion: Make sure the file exists, specified location is correct, and you have privileges to run the file.
+168 [140071689501824] INFO perfrun.launcher <> - Application exit code: 0
+169 [140071689501824] INFO perfrun.launcher <> - Exit code: 1

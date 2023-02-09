@@ -34,6 +34,8 @@ int initialise(const char* paramfile, const char* obstaclefile,
                int** obstacles_ptr, float** av_vels_ptr);
 
 
+
+
 int main(int argc, char* argv[]){
     //INITIALIZATION TEST
 
@@ -69,14 +71,13 @@ int main(int argc, char* argv[]){
     init_toc = timstr.tv_sec + (timstr.tv_usec / 1000000.0);
     comp_tic=init_toc;
 
-    test();
 
-
-
+    /* Compute time stops here, collate time starts*/   
     gettimeofday(&timstr, NULL);
     comp_toc = timstr.tv_sec + (timstr.tv_usec / 1000000.0);
     col_tic=comp_toc;
-
+  
+    /* Total/collate time stops here.*/
     gettimeofday(&timstr, NULL);
     col_toc = timstr.tv_sec + (timstr.tv_usec / 1000000.0);
     tot_toc = col_toc;

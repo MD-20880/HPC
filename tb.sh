@@ -4,6 +4,7 @@ set -e # exit on error
 
 FILENAME=$(ls ./Archive | wc -l | awk '{printf( "%05d\n" , $1)}')
 FILENAME=$1 #Set Trial Name
+echo $FILENAME
 FILEPATH=`pwd` 
 
 echo "Compiling the code"
@@ -29,6 +30,11 @@ echo "Checking"
 make check #Check the Result
 echo "Check complete"
 
+
+echo "Profiling"
+gprof -l ./d2q9-bgk gmon.out > profile.txt #Profile the code
+
+
 #Archive the results
 echo "Archiving"
 
@@ -39,7 +45,7 @@ if [FILENAME == ""]; then
 fi 
 
 mkdir -p $FILEPATH/Archive/$FILENAME
-for i in av_vels.dat final_state.dat d2q9-bgk.out d2q9-bgk; do
+for i in av_vels.dat final_state.dat d2q9-bgk.out d2q9-bgk profile.txt; do
     mv $i $FILEPATH/Archive/$FILENAME
 done
 

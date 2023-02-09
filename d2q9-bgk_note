@@ -1,0 +1,53 @@
+Reduce Precesion: This is not a good idea since Change the precesion may lead to change in the final result.
+However, 
+
+Cache misses might be a good thing to notice.
+
+
+
+Variable Size :
+{
+    struct t_speed  =  NSPEEDS * sizeof float = 9 * 4 = 36 bytes
+    t_speed* Cell = N*N*t_speed = N*N*36 = 36*N^2 bytes
+    //128*128 map, 36*128^2 = 36*16384 = 589824 bytes = 576 KB
+    //256*256 map, 36*256^2 = 36*65536 = 2359296 bytes = 2.25 MB
+    //512*512 map, 36*512^2 = 36*262144 = 9437184 bytes = 9 MB
+    //1024*1024 map, 36*1024^2 = 36*1048576 = 37748736 bytes = 36 MB
+    int* obstacles = N*N*sizeof int = N*N*4 = 4*N^2 bytes
+    //128*128 map, 4*128^2 = 4*16384 = 65536 bytes = 64 KB
+    //256*256 map, 4*256^2 = 4*65536 = 262144 bytes = 256 KB
+    //512*512 map, 4*512^2 = 4*262144 = 1048576 bytes = 1 MB
+    //1024*1024 map, 4*1024^2 = 4*1048576 = 4194304 bytes = 4 MB
+
+
+
+
+}
+
+
+Suppose calculations are all done within
+Main:
+
+
+
+timestep:
+    accelerate_flow
+    propagate
+    rebound
+    collision
+
+
+accelerate_flow:
+    Q:Difference between load 1D array and 2D array.
+    Data Movement:
+        Load params once
+        for N:
+            Load obstacles Once
+            Load Array Once
+            Write Cell 6 times
+            FLOPS 9 times 
+
+
+propagate:
+    for N:
+        Load

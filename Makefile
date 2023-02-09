@@ -3,8 +3,9 @@
 EXE=d2q9-bgk
 
 CC=gcc
-CFLAGS= -std=c99 -Wall -O3
+CFLAGS= -std=c99 -Wall 
 LIBS = -lm
+OPTFLAGS = -O3
 
 FINAL_STATE_FILE=./final_state.dat
 AV_VELS_FILE=./av_vels.dat
@@ -13,6 +14,8 @@ REF_AV_VELS_FILE=check/128x128.av_vels.dat
 
 all: $(EXE)
 
+flags:
+	$(CC) $(CFLAGS) -pg $(OPTFLAGS) $(EXE).c $(LIBS) -o $(EXE)
 
 prof:
 	$(CC) $(CFLAGS) -pg $(EXE).c $(LIBS) -o $(EXE)

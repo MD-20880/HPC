@@ -2,20 +2,17 @@
 
 set -e # exit on error
 
-
+FILENAME=$(ls ./Archive | wc -l | awk '{printf( "%05d\n" , $1)}')
+FILENAME=$1 #Set Trial Name
 FILEPATH=`pwd` 
 
 echo "Compiling the code"
-make # compile the code
+make prof # compile the code
 
 #Collect Environment Variables
 
-
-
-
-
 echo "Running"
-if [ $(OSTYPE) == darwin22.0]; then
+if [ $(OSTYPE) == "darwin22.0"]; then
     echo "Running on Mac"
     ./d2q9-bgk input_128x128.params obstacles_128x128.dat
 else
@@ -34,8 +31,7 @@ echo "Check complete"
 
 #Archive the results
 echo "Archiving"
-FILENAME=$(ls ./Archive | wc -l | awk '{printf( "%05d\n" , $1)}')
-echo $FILENAME
+
 
 if [FILENAME == ""]; then
     echo "Generate Filename Failed"

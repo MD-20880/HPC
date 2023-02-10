@@ -34,6 +34,17 @@ int initialise(const char* paramfile, const char* obstaclefile,
                int** obstacles_ptr, float** av_vels_ptr);
 
 
+int create2DArray(t_speed ***array, int rows, int cols);
+
+int SequenceRead1D(t_speed* cells,int nx, int ny);
+
+int SequenceRead2D(t_speed** cells2D, int nx, int ny);
+
+int RandomAccess1D(t_speed* cells, int nx, int ny);
+
+int RandomAccess2D(t_speed** cells2D, int nx, int ny);
+
+
 
 
 int main(int argc, char* argv[]){
@@ -43,6 +54,7 @@ int main(int argc, char* argv[]){
     char*    obstaclefile = NULL; /* name of a the input obstacle file */
     t_param  params;              /* struct to hold parameter values */
     t_speed* cells     = NULL;    /* grid containing fluid densities */
+    t_speed** cells2D = NULL;
     t_speed* tmp_cells = NULL;    /* scratch space */
     int*     obstacles = NULL;    /* grid indicating which cells are blocked */
     float* av_vels   = NULL;     /* a record of the av. velocity computed for each timestep */
@@ -65,6 +77,7 @@ int main(int argc, char* argv[]){
     tot_tic = timstr.tv_sec + (timstr.tv_usec / 1000000.0);
     init_tic=tot_tic;
     initialise(paramfile, obstaclefile, &params, &cells, &tmp_cells, &obstacles, &av_vels);
+    create2DArray(&cells2D, params.ny, params.nx);
 
     /* Init time stops here, compute time starts*/
     gettimeofday(&timstr, NULL);
@@ -90,6 +103,22 @@ int main(int argc, char* argv[]){
 
     
 }
+
+
+
+int create2DArray(t_speed ***array, int rows, int cols){
+    int i;
+    *array = (t_speed **)malloc(rows * sizeof(t_speed *));
+    for (i = 0; i < rows; i++){
+        (*array)[i] = (t_speed *)malloc(cols * sizeof(t_speed));
+    }
+    return EXIT_SUCCESS;
+}
+
+
+
+
+
 
 
 

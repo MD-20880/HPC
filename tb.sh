@@ -8,7 +8,7 @@ echo $FILENAME
 FILEPATH=`pwd` 
 
 echo "Compiling the code"
-make prof # compile the code
+make prof $2 # compile the code
 
 #Collect Environment Variables
 

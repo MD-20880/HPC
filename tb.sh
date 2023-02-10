@@ -8,7 +8,7 @@ echo $FILENAME
 FILEPATH=`pwd` 
 
 echo "Compiling the code"
-make prof # compile the code
+make prof $2 # compile the code
 
 #Collect Environment Variables
 
@@ -39,7 +39,7 @@ gprof -l ./d2q9-bgk gmon.out > profile.txt #Profile the code
 echo "Archiving"
 
 
-if [FILENAME == ""]; then
+if [$FILENAME == ""]; then
     echo "Generate Filename Failed"
     exit 1
 fi 

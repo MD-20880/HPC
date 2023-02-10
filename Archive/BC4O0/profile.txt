@@ -1,0 +1,351 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 11.69     14.70    14.70                             collision (d2q9-bgk.c:385 @ 4023bf)
+ 10.85     28.35    13.64                             collision (d2q9-bgk.c:316 @ 401c32)
+  8.49     39.02    10.68                             collision (d2q9-bgk.c:387 @ 402427)
+  7.83     48.87     9.85                             av_velocity (d2q9-bgk.c:417 @ 40252b)
+  2.52     52.05     3.17                             av_velocity (d2q9-bgk.c:437 @ 4027da)
+  2.28     54.92     2.87                             collision (d2q9-bgk.c:354 @ 401fc3)
+  1.78     57.16     2.24                             propagate (d2q9-bgk.c:244 @ 40145a)
+  1.78     59.39     2.24                             propagate (d2q9-bgk.c:245 @ 401469)
+  1.67     61.50     2.10                             collision (d2q9-bgk.c:337 @ 401f08)
+  1.61     63.52     2.03                             collision (d2q9-bgk.c:383 @ 40247e)
+  1.38     65.26     1.74                             propagate (d2q9-bgk.c:254 @ 4015c5)
+  1.38     66.99     1.73                             propagate (d2q9-bgk.c:258 @ 401739)
+  1.37     68.71     1.73                             propagate (d2q9-bgk.c:253 @ 401568)
+  1.30     70.35     1.64                             propagate (d2q9-bgk.c:259 @ 401796)
+  1.28     71.96     1.61                             propagate (d2q9-bgk.c:257 @ 4016dc)
+  1.23     73.51     1.55                             collision (d2q9-bgk.c:314 @ 401c76)
+  1.18     74.99     1.49                             propagate (d2q9-bgk.c:251 @ 4014b0)
+  1.18     76.47     1.48                             propagate (d2q9-bgk.c:252 @ 40150b)
+  1.18     77.95     1.48                             propagate (d2q9-bgk.c:256 @ 40167f)
+  1.09     79.33     1.37                             propagate (d2q9-bgk.c:255 @ 401622)
+  1.00     80.58     1.26                             rebound (d2q9-bgk.c:274 @ 40184b)
+  0.99     81.83     1.25                             av_velocity (d2q9-bgk.c:415 @ 40256c)
+  0.82     82.85     1.03                             collision (d2q9-bgk.c:385 @ 402474)
+  0.80     83.85     1.00                             collision (d2q9-bgk.c:328 @ 401dc4)
+  0.78     84.83     0.98                             collision (d2q9-bgk.c:321 @ 401cb1)
+  0.76     85.79     0.96                             av_velocity (d2q9-bgk.c:429 @ 4027d0)
+  0.75     86.74     0.94                             collision (d2q9-bgk.c:324 @ 401d4c)
+  0.74     87.66     0.93                             collision (d2q9-bgk.c:331 @ 401e5f)
+  0.73     88.58     0.92                             av_velocity (d2q9-bgk.c:422 @ 4025a4)
+  0.72     89.48     0.90                             av_velocity (d2q9-bgk.c:415 @ 402522)
+  0.71     90.37     0.89                             collision (d2q9-bgk.c:314 @ 401c29)
+  0.70     91.25     0.88                             collision (d2q9-bgk.c:332 @ 401e90)
+  0.70     92.13     0.88                             av_velocity (d2q9-bgk.c:429 @ 4026a8)
+  0.67     92.97     0.85                             av_velocity (d2q9-bgk.c:432 @ 40273a)
+  0.65     93.79     0.82                             av_velocity (d2q9-bgk.c:424 @ 402608)
+  0.65     94.61     0.82                             av_velocity (d2q9-bgk.c:425 @ 402636)
+  0.61     95.39     0.77                             av_velocity (d2q9-bgk.c:430 @ 4026d6)
+  0.61     96.16     0.77                             collision (d2q9-bgk.c:386 @ 402470)
+  0.60     96.92     0.76                             av_velocity (d2q9-bgk.c:423 @ 4025d6)
+  0.60     97.67     0.75                             av_velocity (d2q9-bgk.c:410 @ 4024f0)
+  0.60     98.42     0.75                             av_velocity (d2q9-bgk.c:431 @ 402708)
+  0.60     99.17     0.75                             collision (d2q9-bgk.c:322 @ 401ce6)
+  0.60     99.92     0.75                             collision (d2q9-bgk.c:323 @ 401d1b)
+  0.59    100.66     0.75                             av_velocity (d2q9-bgk.c:433 @ 402768)
+  0.57    101.38     0.72                             av_velocity (d2q9-bgk.c:434 @ 40279a)
+  0.57    102.10     0.72                             collision (d2q9-bgk.c:329 @ 401df5)
+  0.56    102.81     0.71                             collision (d2q9-bgk.c:373 @ 40227a)
+  0.56    103.51     0.70                             av_velocity (d2q9-bgk.c:426 @ 402668)
+  0.56    104.22     0.70                             collision (d2q9-bgk.c:363 @ 402115)
+  0.55    104.91     0.70                             collision (d2q9-bgk.c:325 @ 401d81)
+  0.55    105.61     0.70                             collision (d2q9-bgk.c:330 @ 401e2a)
+  0.55    106.30     0.69                             av_velocity (d2q9-bgk.c:421 @ 402576)
+  0.55    106.99     0.69                             collision (d2q9-bgk.c:376 @ 4022ef)
+  0.52    107.64     0.65                             collision (d2q9-bgk.c:360 @ 402097)
+  0.52    108.29     0.65                             collision (d2q9-bgk.c:362 @ 4020ec)
+  0.51    108.93     0.64                             collision (d2q9-bgk.c:309 @ 401bf4)
+  0.51    109.56     0.64                             collision (d2q9-bgk.c:333 @ 401ec5)
+  0.49    110.18     0.62                             collision (d2q9-bgk.c:356 @ 401ff0)
+  0.48    110.78     0.60                             collision (d2q9-bgk.c:367 @ 4021ba)
+  0.47    111.37     0.59                             collision (d2q9-bgk.c:320 @ 401c80)
+  0.44    111.92     0.55                             collision (d2q9-bgk.c:353 @ 401feb)
+  0.43    112.46     0.54                             collision (d2q9-bgk.c:358 @ 402049)
+  0.42    113.00     0.53                             collision (d2q9-bgk.c:374 @ 4022a4)
+  0.42    113.52     0.53                             collision (d2q9-bgk.c:369 @ 4021df)
+  0.41    114.03     0.51                             collision (d2q9-bgk.c:357 @ 402019)
+  0.41    114.54     0.51                             collision (d2q9-bgk.c:365 @ 40216a)
+  0.38    115.02     0.48                             collision (d2q9-bgk.c:386 @ 402422)
+  0.37    115.48     0.46                             collision (d2q9-bgk.c:366 @ 402190)
+  0.35    115.92     0.44                             collision (d2q9-bgk.c:372 @ 402254)
+  0.35    116.36     0.44                             collision (d2q9-bgk.c:375 @ 4022c9)
+  0.35    116.80     0.44                             collision (d2q9-bgk.c:378 @ 40233e)
+  0.34    117.23     0.43                             collision (d2q9-bgk.c:380 @ 40238e)
+  0.33    117.65     0.42                             collision (d2q9-bgk.c:371 @ 40222f)
+  0.33    118.06     0.41                             collision (d2q9-bgk.c:383 @ 4023b3)
+  0.32    118.46     0.40                             collision (d2q9-bgk.c:370 @ 402205)
+  0.31    118.84     0.39                             propagate (d2q9-bgk.c:246 @ 401478)
+  0.28    119.19     0.35                             collision (d2q9-bgk.c:359 @ 40206e)
+  0.26    119.52     0.33                             av_velocity (d2q9-bgk.c:407 @ 40280f)
+  0.26    119.85     0.33                             collision (d2q9-bgk.c:379 @ 402364)
+  0.23    120.14     0.29                             collision (d2q9-bgk.c:328 @ 401efe)
+  0.22    120.42     0.28                             rebound (d2q9-bgk.c:285 @ 401aff)
+  0.21    120.69     0.27                             collision (d2q9-bgk.c:375 @ 402335)
+  0.21    120.95     0.26                             collision (d2q9-bgk.c:362 @ 402161)
+  0.19    121.19     0.24                             collision (d2q9-bgk.c:361 @ 4020c7)
+  0.19    121.44     0.24                             propagate (d2q9-bgk.c:240 @ 40144e)
+  0.19    121.67     0.24                             propagate (d2q9-bgk.c:247 @ 401494)
+  0.18    121.90     0.23                             collision (d2q9-bgk.c:346 @ 401f7e)
+  0.18    122.13     0.23                             collision (d2q9-bgk.c:347 @ 401f8d)
+  0.18    122.36     0.23                             collision (d2q9-bgk.c:306 @ 40248c)
+  0.18    122.58     0.22                             av_velocity (d2q9-bgk.c:424 @ 40269a)
+  0.18    122.80     0.22                             collision (d2q9-bgk.c:312 @ 401c20)
+  0.17    123.01     0.21                             collision (d2q9-bgk.c:344 @ 401f5a)
+  0.16    123.21     0.20                             collision (d2q9-bgk.c:353 @ 401fb6)
+  0.16    123.41     0.20                             collision (d2q9-bgk.c:343 @ 401f42)
+  0.15    123.60     0.19                             collision (d2q9-bgk.c:348 @ 401fa7)
+  0.14    123.78     0.18                             collision (d2q9-bgk.c:364 @ 402145)
+  0.14    123.95     0.17                             collision (d2q9-bgk.c:377 @ 402319)
+  0.11    124.09     0.14                             rebound (d2q9-bgk.c:278 @ 401874)
+  0.10    124.21     0.13                             collision (d2q9-bgk.c:345 @ 401f6f)
+  0.10    124.33     0.12                             collision (d2q9-bgk.c:378 @ 4023aa)
+  0.09    124.45     0.12                             collision (d2q9-bgk.c:323 @ 401db6)
+  0.09    124.56     0.12                             collision (d2q9-bgk.c:365 @ 4021d6)
+  0.09    124.67     0.11                             collision (d2q9-bgk.c:342 @ 401f35)
+  0.08    124.78     0.11                             collision (d2q9-bgk.c:331 @ 401efa)
+  0.08    124.88     0.11                             rebound (d2q9-bgk.c:271 @ 40183f)
+  0.08    124.98     0.10                             collision (d2q9-bgk.c:359 @ 4020e3)
+  0.07    125.07     0.09                             rebound (d2q9-bgk.c:280 @ 40192e)
+  0.06    125.14     0.08                             av_velocity (d2q9-bgk.c:421 @ 40269e)
+  0.06    125.21     0.07                             rebound (d2q9-bgk.c:282 @ 4019e8)
+  0.05    125.27     0.06                             collision (d2q9-bgk.c:306 @ 401be8)
+  0.04    125.33     0.06                             propagate (d2q9-bgk.c:240 @ 4017f3)
+  0.04    125.38     0.06                             rebound (d2q9-bgk.c:283 @ 401a45)
+  0.04    125.43     0.05                             rebound (d2q9-bgk.c:271 @ 401b5c)
+  0.03    125.47     0.04                             rebound (d2q9-bgk.c:281 @ 40198b)
+  0.03    125.51     0.04                             rebound (d2q9-bgk.c:279 @ 4018d1)
+  0.03    125.54     0.04                             main (d2q9-bgk.c:160 @ 400cb9)
+  0.02    125.57     0.03                             accelerate_flow (d2q9-bgk.c:222 @ 4011ca)
+  0.02    125.60     0.03                             rebound (d2q9-bgk.c:284 @ 401aa2)
+  0.02    125.62     0.02                             accelerate_flow (d2q9-bgk.c:224 @ 40128e)
+  0.02    125.64     0.02                             accelerate_flow (d2q9-bgk.c:226 @ 4012f0)
+  0.02    125.66     0.02                             av_velocity (d2q9-bgk.c:432 @ 4027cc)
+  0.02    125.68     0.02                             propagate (d2q9-bgk.c:238 @ 401803)
+  0.01    125.69     0.01                             accelerate_flow (d2q9-bgk.c:216 @ 4010e1)
+  0.01    125.70     0.01                             accelerate_flow (d2q9-bgk.c:217 @ 40110a)
+  0.01    125.71     0.01                             accelerate_flow (d2q9-bgk.c:227 @ 401352)
+  0.01    125.72     0.01                             propagate (d2q9-bgk.c:238 @ 401442)
+  0.01    125.73     0.01                             timestep (d2q9-bgk.c:198 @ 400ffa)
+  0.00    125.73     0.01                             main (d2q9-bgk.c:161 @ 400d04)
+  0.00    125.73     0.00    40001     0.00     0.00  av_velocity (d2q9-bgk.c:397 @ 4024b3)
+  0.00    125.73     0.00    40000     0.00     0.00  accelerate_flow (d2q9-bgk.c:204 @ 401079)
+  0.00    125.73     0.00    40000     0.00     0.00  collision (d2q9-bgk.c:294 @ 401b83)
+  0.00    125.73     0.00    40000     0.00     0.00  propagate (d2q9-bgk.c:236 @ 40142d)
+  0.00    125.73     0.00    40000     0.00     0.00  rebound (d2q9-bgk.c:267 @ 40181a)
+  0.00    125.73     0.00    40000     0.00     0.00  timestep (d2q9-bgk.c:195 @ 400f6b)
+  0.00    125.73     0.00        1     0.00     0.00  calc_reynolds (d2q9-bgk.c:625 @ 403103)
+  0.00    125.73     0.00        1     0.00     0.00  finalise (d2q9-bgk.c:604 @ 403073)
+  0.00    125.73     0.00        1     0.00     0.00  initialise (d2q9-bgk.c:450 @ 402846)
+  0.00    125.73     0.00        1     0.00     0.00  write_values (d2q9-bgk.c:650 @ 403239)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.01% of 125.73 seconds
+
+index % time    self  children    called     name
+                0.00    0.00       1/40001       calc_reynolds (d2q9-bgk.c:628 @ 403146) [161]
+                0.00    0.00   40000/40001       main (d2q9-bgk.c:161 @ 400d04) [128]
+[129]    0.0    0.00    0.00   40001         av_velocity (d2q9-bgk.c:397 @ 4024b3) [129]
+-----------------------------------------------
+                0.00    0.00   40000/40000       timestep (d2q9-bgk.c:196 @ 400f84) [298]
+[130]    0.0    0.00    0.00   40000         accelerate_flow (d2q9-bgk.c:204 @ 401079) [130]
+-----------------------------------------------
+                0.00    0.00   40000/40000       timestep (d2q9-bgk.c:199 @ 401036) [300]
+[131]    0.0    0.00    0.00   40000         collision (d2q9-bgk.c:294 @ 401b83) [131]
+-----------------------------------------------
+                0.00    0.00   40000/40000       timestep (d2q9-bgk.c:197 @ 400fbf) [299]
+[132]    0.0    0.00    0.00   40000         propagate (d2q9-bgk.c:236 @ 40142d) [132]
+-----------------------------------------------
+                0.00    0.00   40000/40000       timestep (d2q9-bgk.c:198 @ 400ffa) [127]
+[133]    0.0    0.00    0.00   40000         rebound (d2q9-bgk.c:267 @ 40181a) [133]
+-----------------------------------------------
+                0.00    0.00   40000/40000       main (d2q9-bgk.c:160 @ 400cb9) [116]
+[134]    0.0    0.00    0.00   40000         timestep (d2q9-bgk.c:195 @ 400f6b) [134]
+-----------------------------------------------
+                0.00    0.00       1/1           main (d2q9-bgk.c:183 @ 400e29) [282]
+[135]    0.0    0.00    0.00       1         calc_reynolds (d2q9-bgk.c:625 @ 403103) [135]
+-----------------------------------------------
+                0.00    0.00       1/1           main (d2q9-bgk.c:191 @ 400f60) [289]
+[136]    0.0    0.00    0.00       1         finalise (d2q9-bgk.c:604 @ 403073) [136]
+-----------------------------------------------
+                0.00    0.00       1/1           main (d2q9-bgk.c:151 @ 400c1e) [269]
+[137]    0.0    0.00    0.00       1         initialise (d2q9-bgk.c:450 @ 402846) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           main (d2q9-bgk.c:188 @ 400ee7) [287]
+[138]    0.0    0.00    0.00       1         write_values (d2q9-bgk.c:650 @ 403239) [138]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [130] accelerate_flow (d2q9-bgk.c:204 @ 401079) [46] collision (d2q9-bgk.c:329 @ 401df5) [100] collision (d2q9-bgk.c:378 @ 4023aa)
+ [123] accelerate_flow (d2q9-bgk.c:216 @ 4010e1) [51] collision (d2q9-bgk.c:330 @ 401e2a) [74] collision (d2q9-bgk.c:383 @ 4023b3)
+ [124] accelerate_flow (d2q9-bgk.c:217 @ 40110a) [28] collision (d2q9-bgk.c:331 @ 401e5f) [1] collision (d2q9-bgk.c:385 @ 4023bf)
+ [117] accelerate_flow (d2q9-bgk.c:222 @ 4011ca) [32] collision (d2q9-bgk.c:332 @ 401e90) [67] collision (d2q9-bgk.c:386 @ 402422)
+ [119] accelerate_flow (d2q9-bgk.c:224 @ 40128e) [57] collision (d2q9-bgk.c:333 @ 401ec5) [3] collision (d2q9-bgk.c:387 @ 402427)
+ [120] accelerate_flow (d2q9-bgk.c:226 @ 4012f0) [104] collision (d2q9-bgk.c:331 @ 401efa) [38] collision (d2q9-bgk.c:386 @ 402470)
+ [125] accelerate_flow (d2q9-bgk.c:227 @ 401352) [80] collision (d2q9-bgk.c:328 @ 401efe) [23] collision (d2q9-bgk.c:385 @ 402474)
+ [129] av_velocity (d2q9-bgk.c:397 @ 4024b3) [9] collision (d2q9-bgk.c:337 @ 401f08) [10] collision (d2q9-bgk.c:383 @ 40247e)
+  [40] av_velocity (d2q9-bgk.c:410 @ 4024f0) [103] collision (d2q9-bgk.c:342 @ 401f35) [89] collision (d2q9-bgk.c:306 @ 40248c)
+  [30] av_velocity (d2q9-bgk.c:415 @ 402522) [94] collision (d2q9-bgk.c:343 @ 401f42) [136] finalise (d2q9-bgk.c:604 @ 403073)
+   [4] av_velocity (d2q9-bgk.c:417 @ 40252b) [92] collision (d2q9-bgk.c:344 @ 401f5a) [137] initialise (d2q9-bgk.c:450 @ 402846)
+  [22] av_velocity (d2q9-bgk.c:415 @ 40256c) [99] collision (d2q9-bgk.c:345 @ 401f6f) [116] main (d2q9-bgk.c:160 @ 400cb9)
+  [52] av_velocity (d2q9-bgk.c:421 @ 402576) [87] collision (d2q9-bgk.c:346 @ 401f7e) [128] main (d2q9-bgk.c:161 @ 400d04)
+  [29] av_velocity (d2q9-bgk.c:422 @ 4025a4) [88] collision (d2q9-bgk.c:347 @ 401f8d) [132] propagate (d2q9-bgk.c:236 @ 40142d)
+  [39] av_velocity (d2q9-bgk.c:423 @ 4025d6) [95] collision (d2q9-bgk.c:348 @ 401fa7) [126] propagate (d2q9-bgk.c:238 @ 401442)
+  [35] av_velocity (d2q9-bgk.c:424 @ 402608) [93] collision (d2q9-bgk.c:353 @ 401fb6) [85] propagate (d2q9-bgk.c:240 @ 40144e)
+  [36] av_velocity (d2q9-bgk.c:425 @ 402636) [6] collision (d2q9-bgk.c:354 @ 401fc3) [7] propagate (d2q9-bgk.c:244 @ 40145a)
+  [48] av_velocity (d2q9-bgk.c:426 @ 402668) [61] collision (d2q9-bgk.c:353 @ 401feb) [8] propagate (d2q9-bgk.c:245 @ 401469)
+  [90] av_velocity (d2q9-bgk.c:424 @ 40269a) [58] collision (d2q9-bgk.c:356 @ 401ff0) [76] propagate (d2q9-bgk.c:246 @ 401478)
+ [108] av_velocity (d2q9-bgk.c:421 @ 40269e) [65] collision (d2q9-bgk.c:357 @ 402019) [86] propagate (d2q9-bgk.c:247 @ 401494)
+  [33] av_velocity (d2q9-bgk.c:429 @ 4026a8) [62] collision (d2q9-bgk.c:358 @ 402049) [17] propagate (d2q9-bgk.c:251 @ 4014b0)
+  [37] av_velocity (d2q9-bgk.c:430 @ 4026d6) [77] collision (d2q9-bgk.c:359 @ 40206e) [18] propagate (d2q9-bgk.c:252 @ 40150b)
+  [41] av_velocity (d2q9-bgk.c:431 @ 402708) [54] collision (d2q9-bgk.c:360 @ 402097) [13] propagate (d2q9-bgk.c:253 @ 401568)
+  [34] av_velocity (d2q9-bgk.c:432 @ 40273a) [84] collision (d2q9-bgk.c:361 @ 4020c7) [11] propagate (d2q9-bgk.c:254 @ 4015c5)
+  [44] av_velocity (d2q9-bgk.c:433 @ 402768) [106] collision (d2q9-bgk.c:359 @ 4020e3) [20] propagate (d2q9-bgk.c:255 @ 401622)
+  [45] av_velocity (d2q9-bgk.c:434 @ 40279a) [55] collision (d2q9-bgk.c:362 @ 4020ec) [19] propagate (d2q9-bgk.c:256 @ 40167f)
+ [121] av_velocity (d2q9-bgk.c:432 @ 4027cc) [49] collision (d2q9-bgk.c:363 @ 402115) [15] propagate (d2q9-bgk.c:257 @ 4016dc)
+  [26] av_velocity (d2q9-bgk.c:429 @ 4027d0) [96] collision (d2q9-bgk.c:364 @ 402145) [12] propagate (d2q9-bgk.c:258 @ 401739)
+   [5] av_velocity (d2q9-bgk.c:437 @ 4027da) [83] collision (d2q9-bgk.c:362 @ 402161) [14] propagate (d2q9-bgk.c:259 @ 401796)
+  [78] av_velocity (d2q9-bgk.c:407 @ 40280f) [66] collision (d2q9-bgk.c:365 @ 40216a) [111] propagate (d2q9-bgk.c:240 @ 4017f3)
+ [135] calc_reynolds (d2q9-bgk.c:625 @ 403103) [68] collision (d2q9-bgk.c:366 @ 402190) [122] propagate (d2q9-bgk.c:238 @ 401803)
+ [131] collision (d2q9-bgk.c:294 @ 401b83) [59] collision (d2q9-bgk.c:367 @ 4021ba) [133] rebound (d2q9-bgk.c:267 @ 40181a)
+ [110] collision (d2q9-bgk.c:306 @ 401be8) [102] collision (d2q9-bgk.c:365 @ 4021d6) [105] rebound (d2q9-bgk.c:271 @ 40183f)
+  [56] collision (d2q9-bgk.c:309 @ 401bf4) [64] collision (d2q9-bgk.c:369 @ 4021df) [21] rebound (d2q9-bgk.c:274 @ 40184b)
+  [91] collision (d2q9-bgk.c:312 @ 401c20) [75] collision (d2q9-bgk.c:370 @ 402205) [98] rebound (d2q9-bgk.c:278 @ 401874)
+  [31] collision (d2q9-bgk.c:314 @ 401c29) [73] collision (d2q9-bgk.c:371 @ 40222f) [115] rebound (d2q9-bgk.c:279 @ 4018d1)
+   [2] collision (d2q9-bgk.c:316 @ 401c32) [69] collision (d2q9-bgk.c:372 @ 402254) [107] rebound (d2q9-bgk.c:280 @ 40192e)
+  [16] collision (d2q9-bgk.c:314 @ 401c76) [47] collision (d2q9-bgk.c:373 @ 40227a) [114] rebound (d2q9-bgk.c:281 @ 40198b)
+  [60] collision (d2q9-bgk.c:320 @ 401c80) [63] collision (d2q9-bgk.c:374 @ 4022a4) [109] rebound (d2q9-bgk.c:282 @ 4019e8)
+  [25] collision (d2q9-bgk.c:321 @ 401cb1) [70] collision (d2q9-bgk.c:375 @ 4022c9) [112] rebound (d2q9-bgk.c:283 @ 401a45)
+  [42] collision (d2q9-bgk.c:322 @ 401ce6) [53] collision (d2q9-bgk.c:376 @ 4022ef) [118] rebound (d2q9-bgk.c:284 @ 401aa2)
+  [43] collision (d2q9-bgk.c:323 @ 401d1b) [97] collision (d2q9-bgk.c:377 @ 402319) [81] rebound (d2q9-bgk.c:285 @ 401aff)
+  [27] collision (d2q9-bgk.c:324 @ 401d4c) [82] collision (d2q9-bgk.c:375 @ 402335) [113] rebound (d2q9-bgk.c:271 @ 401b5c)
+  [50] collision (d2q9-bgk.c:325 @ 401d81) [71] collision (d2q9-bgk.c:378 @ 40233e) [134] timestep (d2q9-bgk.c:195 @ 400f6b)
+ [101] collision (d2q9-bgk.c:323 @ 401db6) [79] collision (d2q9-bgk.c:379 @ 402364) [127] timestep (d2q9-bgk.c:198 @ 400ffa)
+  [24] collision (d2q9-bgk.c:328 @ 401dc4) [72] collision (d2q9-bgk.c:380 @ 40238e) [138] write_values (d2q9-bgk.c:650 @ 403239)
